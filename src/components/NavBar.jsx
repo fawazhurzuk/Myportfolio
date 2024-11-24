@@ -34,7 +34,7 @@ const NavBar = () => {
         {/* Logo */}
         <h1 className="flex items-center text-2xl font-sans font-semibold text-gray-900 dark:text-white transition duration-500 transform hover:scale-105 hover:text-blue-500">
   <img
-    src="src/assets/Image.jpg"
+    src="public/assets/Image.jpg"
     alt="Profile"
     className="w-8 h-8 rounded-full mr-2 border border-gray-300 dark:border-gray-700"
   />

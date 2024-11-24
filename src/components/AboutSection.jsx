@@ -42,7 +42,7 @@ const AboutSection = () => {
         >
           <div className="relative group w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-lg transform transition-transform duration-500 hover:scale-105">
             <img
-              src="src/assets/Image.jpg" 
+              src="public/assets/Image.jpg" 
               alt="Your Name"
               className="w-full h-full object-cover"
             />
