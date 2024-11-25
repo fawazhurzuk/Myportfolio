@@ -70,7 +70,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           {/* Copyright */}
           <p className="text-sm text-center">
-            © 2024 <span className="font-semibold">Fawaz Hurzuk</span>. All rights reserved.
+            © 2024 <span className="font-semibold">Fawaz Hurzuk</span>. All
+            rights reserved.
           </p>
 
           {/* Back to Top Button */}

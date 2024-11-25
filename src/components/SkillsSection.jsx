@@ -1,7 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaGitAlt, FaCss3Alt, FaHtml5, FaJsSquare } from "react-icons/fa";
-import { SiTailwindcss, SiMongodb} from "react-icons/si";
+import {
+  FaReact,
+  FaNodeJs,
+  FaGitAlt,
+  FaCss3Alt,
+  FaHtml5,
+  FaJsSquare,
+} from "react-icons/fa";
+import { SiTailwindcss, SiMongodb } from "react-icons/si";
 
 const SkillsSection = () => {
   const skills = [
@@ -13,7 +20,6 @@ const SkillsSection = () => {
     { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
     { name: "MongoDB", icon: <SiMongodb className="text-green-600" /> },
     { name: "Git", icon: <FaGitAlt className="text-red-500" /> },
-
   ];
 
   return (
@@ -27,7 +33,7 @@ const SkillsSection = () => {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600 dark:from-blue-300 dark:to-purple-400 mb-8"
+          className="text-4xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600 dark:from-blue-300 dark:to-purple-400 mb-8"
         >
           My Skills
         </motion.h2>

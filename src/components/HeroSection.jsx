@@ -37,7 +37,7 @@ const HeroSection = () => {
         className="mt-8 flex space-x-4"
       >
         <a
-          href="src/assets/Fawaz resume.pdf"
+          href="/Fawaz resume.pdf"
           download="Fawaz_Hurzuk_Resume.pdf"
           className="px-6 py-3 text-blue-600 bg-white-600 border-2 border-blue-600 hover:bg-blue-100 rounded-full shadow-lg transition-transform transform hover:scale-105"
         >

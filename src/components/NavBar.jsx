@@ -33,13 +33,13 @@ const NavBar = () => {
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
         <h1 className="flex items-center text-2xl font-sans font-semibold text-gray-900 dark:text-white transition duration-500 transform hover:scale-105 hover:text-blue-500">
-  <img
-    src="public/Image.jpg"
-    alt="Profile"
-    className="w-8 h-8 rounded-full mr-2 border border-gray-300 dark:border-gray-700"
-  />
-  Fawaz Hurzuk
-</h1>
+          <img
+            src="/Image.jpg"
+            alt="Profile"
+            className="w-8 h-8 rounded-full mr-2 border border-gray-300 dark:border-gray-700"
+          />
+          Fawaz Hurzuk
+        </h1>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6">

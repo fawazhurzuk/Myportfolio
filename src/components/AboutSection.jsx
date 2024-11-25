@@ -19,17 +19,25 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="text-lg sm:text-xl leading-relaxed mb-4">
-            Hi, I’m <span className="font-semibold text-blue-500">Fawaz Hurzuk</span>, a passionate Frontend Developer
-            with a background in <span className="text-blue-500">Bachelor of science with specialization in information technology</span>. I love crafting intuitive
-            user experiences and bringing designs to life with code.
+            Hi, I’m{" "}
+            <span className="font-semibold text-blue-500">Fawaz Hurzuk</span>, a
+            passionate Frontend Developer with a background in{" "}
+            <span className="text-blue-500">
+              Bachelor of science with specialization in information technology
+            </span>
+            . I love crafting intuitive user experiences and bringing designs to
+            life with code.
           </p>
           <p className="text-lg sm:text-xl leading-relaxed mb-4">
-            My journey in tech started with a fascination for how websites work, and it has grown into a career I’m
-            deeply proud of. My current goal is to build applications that function flawlessly and make users happy.
+            My journey in tech started with a fascination for how websites work,
+            and it has grown into a career I’m deeply proud of. My current goal
+            is to build applications that function flawlessly and make users
+            happy.
           </p>
           <p className="text-lg sm:text-xl leading-relaxed">
-            When I’m not coding, I enjoy <span className="italic">Reading books, Swimming & Trekking</span> and exploring the
-            latest trends in technology.
+            When I’m not coding, I enjoy{" "}
+            <span className="italic">Reading books, Swimming & Trekking</span>{" "}
+            and exploring the latest trends in technology.
           </p>
         </motion.div>
 
@@ -42,7 +50,7 @@ const AboutSection = () => {
         >
           <div className="relative group w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-lg transform transition-transform duration-500 hover:scale-105">
             <img
-              src="/Image.jpg" 
+              src="/Image.jpg"
               alt="Your Name"
               className="w-full h-full object-cover"
             />

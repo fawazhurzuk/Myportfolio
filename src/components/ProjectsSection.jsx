@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase my skills and projects.",
-    image: "/Portfolio.webp", 
+    image: "/Portfolio.webp",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
     liveLink: "https://example.com",
     codeLink: "https://github.com/example/portfolio",
@@ -40,7 +40,7 @@ const ProjectsSection = () => {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-4xl sm:text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600 dark:from-blue-300 dark:to-purple-400 mb-12"
+          className="text-4xl sm:text-4xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600 dark:from-blue-300 dark:to-purple-400 mb-14"
         >
           My Projects
         </motion.h2>
@@ -54,7 +54,7 @@ const ProjectsSection = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
-              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
+              className="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 relative pb-16"
             >
               {/* Project Image */}
               <img
@@ -81,7 +81,9 @@ const ProjectsSection = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex justify-between">
+
+                {/* Links Positioned at the Bottom */}
+                <div className="absolute bottom-4 left-6 right-6 flex justify-between">
                   <a
                     href={project.liveLink}
                     target="_blank"
