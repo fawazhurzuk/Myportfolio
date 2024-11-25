@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase my skills and projects.",
-    image: "public/assets/Portfolio.webp", 
+    image: "/Portfolio.webp", 
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
     liveLink: "https://example.com",
     codeLink: "https://github.com/example/portfolio",
@@ -13,7 +13,7 @@ const projects = [
   {
     title: "E-commerce App",
     description: "A fully responsive e-commerce platform.",
-    image: "public/assets/E-commerce.webp",
+    image: "/E-commerce.webp",
     technologies: ["React", "Node.js", "MongoDB"],
     liveLink: "https://example.com",
     codeLink: "https://github.com/example/ecommerce",
@@ -21,7 +21,7 @@ const projects = [
   {
     title: "Task Manager",
     description: "A simple task management app with user authentication.",
-    image: "public/assets/Task manager.jpg",
+    image: "/Task manager.jpg",
     technologies: ["React", "Firebase", "Tailwind CSS"],
     liveLink: "https://example.com",
     codeLink: "https://github.com/example/task-manager",
